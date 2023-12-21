@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="623.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tv.Controller">
+   <children>
+      <TableView fx:id="myTableView" prefHeight="623.0" prefWidth="600.0">
+        <columns>
+          <TableColumn prefWidth="366.0" text="Name" />
+          <TableColumn minWidth="0.0" prefWidth="119.0" text="Advisory" />
+            <TableColumn minWidth="0.0" prefWidth="50.0" text="Grade" />
+            <TableColumn minWidth="0.0" prefWidth="57.0" text="Algebra" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>
