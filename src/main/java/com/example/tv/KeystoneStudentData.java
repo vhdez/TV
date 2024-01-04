@@ -1,6 +1,8 @@
 package com.example.tv;
 
-public class KeystoneStudentData {
+import java.io.Serializable;
+
+public class KeystoneStudentData implements Serializable {
     String studentName;
     String advisory;
     int grade;
@@ -43,5 +45,9 @@ public class KeystoneStudentData {
 
     public void setAlgebraTaking(boolean algebraTaking) {
         this.algebraTaking = algebraTaking;
+    }
+
+    public String toString() {
+        return studentName + advisory + grade + algebraTaking;
     }
 }

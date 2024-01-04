@@ -7,16 +7,32 @@ public class Controller {
 
     // MEETS EXPECTATIONS: Display at least 3 rows and 3 columns of data
     public void initialize() {
-        // create data Objects
+        // Programmer creates data Objects
         KeystoneStudentData student1 = new KeystoneStudentData("Noah Frank", "Jonas", 12, false);
         KeystoneStudentData student2 = new KeystoneStudentData("Eli Phillips", "Pahomov", 12, false);
-
+        System.out.println(student2);
         // need to tell the TableView about each data object
         // ???????
     }
 
+    // MEETS EXPECTATIONS
+    public void saveData() throws Exception {
+        // open a file
+        // construct an ObjectOutputStream
+
+        // writeObject for each object
+    }
+
+    // MEETS EXPECTATIONS
+    public void restoreData() throws Exception {
+        // open a file
+        // construct an ObjectInputStream
+        // readObject for each object
+
+    }
+
     // EXCEEDS EXPECTATIONS
-    public void addNewData() {
+    public void userAddNewData() {
         // need to get data that user typed or checked
         // ???
 
@@ -25,16 +41,6 @@ public class Controller {
 
         // need to tell TableView about that new data Object
         // ???
-    }
-
-    // EXCEEDS EXPECTATIONS
-    public void saveData() {
-
-    }
-
-    // EXCEEDS EXPECTATIONS
-    public void restoreData() {
-
     }
 
 }
